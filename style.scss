@@ -1,10 +1,48 @@
-
 /*
   Import the common theme.
 */
 @import "./_shared/scss/theme.scss";
-
 /*
   If you need some CSS for any reason you can put it here.
 */
+.inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
 
+.beerCase {
+  background-color: #deeaee;
+  max-width: 14rem;
+  word-wrap: break-word;
+  border: 3px solid grey;
+  list-style: none;
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+h2 {
+  color: #eea29a;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #034f84;
+  text-align: right;
+}
+
+p {
+  color: #eea29a;
+  text-align: left;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+img {
+  max-width: 9rem;
+  max-height: 9rem;
+  padding-left: 15px;
+}
